@@ -12,8 +12,8 @@ import java.util.List;
 
 public class AndroidApp {
 
-    String userName = System.getenv("LT_USERNAME") == null ? "username" : System.getenv("LT_USERNAME"); //Add username here
-    String accessKey = System.getenv("LT_ACCESS_KEY") == null ? "accessKey" : System.getenv("LT_ACCESS_KEY"); //Add accessKey here
+    String userName = "iqbal.tabish30"; //Add username here
+    String accessKey = "jbG3xOkPailOnu0T4tTj92Qk9u4vjU9FOm47V0ksjVCiHau8PJ"; //Add accessKey here
     String app_id = "lt://APP10160522181729674176466333";      //Enter your LambdaTest App ID at the place of lt://proverbial-android
     String grid_url = "mobile-hub.lambdatest.com";
 
